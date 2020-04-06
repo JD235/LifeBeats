@@ -2,7 +2,7 @@
 
 <h2><p align=center><b>The Digital Blood Bank</b></p></h2>
  <p align=center> 
-<img src="https://github.com/JD235/Life-Beats/blob/master/assets/life-beats-01.png">
+<img src="https://github.com/JD235/LifeBeats/blob/master/assets/life-beats-01.png">
   </p> 
 <h2><p align=center><b>We are here so every person who wants to help or need help can access our web easily.</b></p></h2>
 
