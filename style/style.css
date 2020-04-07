@@ -19,7 +19,7 @@ body{
 }
 
 .header-menu .navbar-expand-lg .navbar-collapse{
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .header-menu .navbar-nav  .button:hover{
@@ -41,11 +41,17 @@ body{
 }
 h1{
     text-align: center;
+    text-decoration: underline;
     letter-spacing: 0.1rem;
 }
 
-.row{
+.p{
     text-align: center;
+}
+.note{
+    text-align: center;
+    font-weight: bold ;
+    font-size: 30px ;
 }
 
 .btn-danger{
