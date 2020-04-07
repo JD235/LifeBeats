@@ -9,7 +9,7 @@ html{
 }
 
 .header-menu{
-        font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header-menu .navbar-brand{
@@ -33,9 +33,10 @@ html{
 
 .main{
     font-family: 'Poppins', sans-serif;
-    font-size: 8.75rem;
+    font-size: 140px;
     text-align: center;
     letter-spacing: 0.5rem;
+    margin-top: 7rem;
 }
 
 .tag{
@@ -45,23 +46,47 @@ html{
     letter-spacing: 0.1rem;
     margin-top: -2rem;
 }
-
 h1{
     font-family: 'Poppins', sans-serif;
     text-align: center;
-    text-decoration: underline;
+    letter-spacing: 0.1rem;
 }
 
-.para{
-    font-family: 'Poppins', sans-serif;
+.row{
     text-align: center;
-    font-size: 25px;
 }
-.note{
+
+.btn-danger{
     font-family: 'Poppins', sans-serif;
-    text-align: center;
-    font-weight: 700 ;
-    font-size: 25px ;
+    background-color: #93171A;
+    border: none;
+    border-radius: 1rem;
+    color: #707070;
+    font-size: 35px;
+}
+
+.card{
+    font-family: 'Poppins', sans-serif;
+    background-color: #152226;
+    border: none;
+}
+
+.form-control{
+    background-color: #152226;
+}
+
+.btn-dang{
+    font-family: 'Poppins', sans-serif;
+    background-color: #93171A;
+    border: none;
+    border-radius: 1rem;
+    color: #707070;
+    font-size: 20px;
+}
+
+.btn-dang:hover{
+    color: white;
+    background-color: #c82333;
 }
 
 footer{
@@ -71,3 +96,5 @@ footer{
     width: 100%;
     background-color: #707070;
 }
+
+

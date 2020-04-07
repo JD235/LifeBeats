@@ -2,6 +2,7 @@ body{
     background-color: #152226;
     color: #808080;
     letter-spacing: 0.1rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 html{
@@ -9,7 +10,7 @@ html{
 }
 
 .header-menu{
-        font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .header-menu .navbar-brand{
@@ -31,37 +32,44 @@ html{
     background: white;
 }
 
-.main{
-    font-family: 'Poppins', sans-serif;
-    font-size: 8.75rem;
-    text-align: center;
-    letter-spacing: 0.5rem;
+.card{
+    background-color: #152226;
+    color: #808080;
+    border: 1px solid #c82333;
 }
 
-.tag{
-    font-family: 'Nixie One', cursive;
+.btn-danger{
+    background-color: #93171A;
+    border: none;
+    border-radius: 1rem;
+    color: #a59c9c;
     text-align: center;
+}
+
+.btn-dang{
+    background-color: #93171A;
+    border: none;
+    border-radius: 1rem;
+    color: #a59c9c;
+    font-size: 20px;
+    margin-left: 29rem;
+}
+.btn-dang:hover{
+    color: white;
+    background-color: #c82333;
+}
+
+.card-header{
     font-size: 35px;
-    letter-spacing: 0.1rem;
-    margin-top: -2rem;
 }
 
-h1{
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    text-decoration: underline;
+.card-footer{
+    color: #707070;
+    border: 1px solid #c82333;
 }
 
-.para{
-    font-family: 'Poppins', sans-serif;
+h2{
     text-align: center;
-    font-size: 25px;
-}
-.note{
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    font-weight: 700 ;
-    font-size: 25px ;
 }
 
 footer{

@@ -1,7 +1,6 @@
 body{
     background-color: #152226;
     color: #808080;
-    letter-spacing: 0.1rem;
 }
 
 html{
@@ -9,7 +8,8 @@ html{
 }
 
 .header-menu{
-        font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.1rem;
 }
 
 .header-menu .navbar-brand{
@@ -24,7 +24,7 @@ html{
 }
 
 .header-menu .navbar-expand-lg .navbar-collapse{
-    justify-content: flex-end;
+    justify-content:  flex-end;
 }
 
 .header-menu .navbar-nav  .button:hover{
@@ -33,7 +33,7 @@ html{
 
 .main{
     font-family: 'Poppins', sans-serif;
-    font-size: 8.75rem;
+    font-size: 140px;
     text-align: center;
     letter-spacing: 0.5rem;
 }
@@ -46,22 +46,42 @@ html{
     margin-top: -2rem;
 }
 
-h1{
+h2{
     font-family: 'Poppins', sans-serif;
-    text-align: center;
-    text-decoration: underline;
+    letter-spacing: 0.3rem;
+    font-size: 40px;
 }
 
-.para{
-    font-family: 'Poppins', sans-serif;
+.row{
     text-align: center;
+}
+
+.btn-danger{
+    font-family: 'Poppins', sans-serif;
+    background-color: #93171A;
+    border: none;
+    border-radius: 1rem;
+    letter-spacing: 0.1rem;
+    color: #707070;
     font-size: 25px;
 }
-.note{
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    font-weight: 700 ;
-    font-size: 25px ;
+
+.card{
+    background-color: #152226;
+    border: 1px solid #707070;
+    border-radius: 1rem;
+}
+
+.col-form-label{
+    font-size: 25px;
+}
+
+.form-control{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0rem;
+    margin-left: -2rem;
 }
 
 footer{
