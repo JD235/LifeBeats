@@ -2,3 +2,65 @@ body{
     background-color: #152226;
     color: #707070;
 }
+
+.header-menu{
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-menu .navbar-brand{
+    font-size: 40px;
+    color: #707070;
+}
+
+.header-menu .navbar-nav .nav-link{
+    font-size:30px;
+    font-weight: 400;
+    color: #707070;
+}
+
+.header-menu .navbar-expand-lg .navbar-collapse{
+    justify-content: end;
+}
+
+.header-menu .navbar-nav  .button:hover{
+    background: white;
+}
+
+.main{
+    font-size: 140px;
+    text-align: center;
+    letter-spacing: 0.5rem;
+}
+
+.tag{
+    font-family: 'Nixie One', cursive;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 0.1rem;
+    margin-top: -2rem;
+}
+h1{
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+.row{
+    text-align: center;
+}
+
+.btn-danger{
+    background-color: #93171A;
+    border: none;
+    border-radius: 1rem;
+    color: #707070;
+    font-size: 35px;
+}
+
+.card{
+    background-color: #152226;
+}
+
+footer{
+    height: 40px;
+    margin-top: 4rem;
+}
