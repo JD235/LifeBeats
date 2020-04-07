@@ -58,9 +58,28 @@ h1{
 
 .card{
     background-color: #152226;
+    border: none;
+}
+
+.form-control{
+    background-color: #152226;
+}
+
+.btn-dang{
+    background-color: #93171A;
+    border: none;
+    border-radius: 1rem;
+    color: #707070;
+    font-size: 20px;
+}
+
+.btn-dang:hover{
+    color: white;
+    background-color: #c82333;
 }
 
 footer{
     height: 40px;
     margin-top: 4rem;
 }
+
