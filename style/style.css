@@ -19,7 +19,7 @@ body{
 }
 
 .header-menu .navbar-expand-lg .navbar-collapse{
-    justify-content: end;
+    justify-content:  flex-end;
 }
 
 .header-menu .navbar-nav  .button:hover{
@@ -63,4 +63,43 @@ h1{
 footer{
     height: 40px;
     margin-top: 4rem;
+}
+
+.login-container{
+    margin-top:199px;
+    margin-left: 90px;
+    border-radius: 40px;
+    border: 1px solid;
+    color:#707070;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+    background-color: #93171A;
+}
+.login-form-2 h3{
+    text-align: center;
+    color: #707070;
+    margin-top: 98px;
+    margin-bottom: 98px;
+    
+}
+.login-form-1 {
+    text-align: center;
+    color: #707070;
+    margin-top: 98px;
+    margin-bottom: 98px;
+}
+
+.login-form-1{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.form-control {
+       border-bottom: #93171A;
+       border: none;
 }
