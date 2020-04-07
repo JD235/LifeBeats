@@ -61,6 +61,7 @@ html{
 
 .card-header{
     font-size: 35px;
+    border: 1px solid rgb(82, 17, 17);
 }
 
 .card-footer{
