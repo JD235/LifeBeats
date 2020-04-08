@@ -27,6 +27,10 @@ html{
     justify-content: flex-end;
 }
 
+.navbar-collapse{
+    text-align: center;
+}
+
 .header-menu .navbar-nav  .button:hover{
     background: white;
 }

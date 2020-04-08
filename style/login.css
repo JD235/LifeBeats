@@ -26,6 +26,9 @@ html{
 .header-menu .navbar-expand-lg .navbar-collapse{
     justify-content: flex-end;
 }
+.navbar-collapse{
+    text-align: center;
+}
 
 .header-menu .navbar-nav  .button:hover{
     background: white;
@@ -96,5 +99,33 @@ footer{
     width: 100%;
     background-color: #707070;
 }
+@media (max-width: 575.98px) { 
+    .don{
+        margin-top: 3rem;
+    }
+    .card{
+        border: 1px solid rgb(82, 17, 17);
+        border-radius: 1rem;
+        margin-top: 2rem;
+    }
+}
 
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .don{
+        margin-top: 3rem;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .don{
+        margin-top: 3rem;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .don{
+        margin-top: 3rem;
+    }
+ }
 
