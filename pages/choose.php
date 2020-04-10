@@ -55,6 +55,7 @@
             </nav>
         </header>
          <!-- Navbar Ends -->
+         
         <div class="container-lg">
             <div class="main mt-xl-2">
                 <p>LIFE BEATS</p>

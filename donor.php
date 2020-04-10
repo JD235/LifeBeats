@@ -1,3 +1,10 @@
+<?php
+include("include/database.php");
+if(isset($_POST['bgrp'])){ 
+    $bgrp=$_POST['bgrp'];
+    }
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,9 +29,8 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
         <link href="https://fonts.googleapis.com/css2?family=Nixie+One&display=swap" rel="stylesheet">  
         
-
         <!-- Custom css file-->
-        <link rel="stylesheet" href="./style/style.css">
+        <link rel="stylesheet" href="style/login.css">
 
 
         <!-- Font Awesome -->
@@ -37,7 +43,7 @@
     <body>
         <header class="header-menu" style="margin-top: 9rem;">
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #152226;">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.php">
                     <img src="assets/Life beats logo-01.png" width="110" height="110" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
@@ -45,41 +51,46 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
-                      <li class="nav-item active">
-                        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                      <li class="nav-item ">
+                        <a class="nav-link" href="index.php">HOME <span class="sr-only">(current)</span></a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="./pages/signup.html">LOGIN / SIGN UP</a>
+                        <a class="nav-link" href="contact.php">CONTACT US</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="./pages/contact.html">CONTACT US</a>
+                        <a class="nav-link" href="include/logout.php">LOGOUT</a>
                       </li>
                     </ul>
                   </div>
             </nav>
         </header>
          <!-- Navbar Ends -->
-         <div class="container-lg">
-            <div class="main mt-xl-2">
-                <p>LIFE BEATS</p>
-            </div>
-            <div class="tag">
-                <p>The Digital Blood Bank</p>
-            </div>
-            <h1 class="mt-xl-5">ABOUT US</h1>
-            <div class="para mt-xl-5">
-              <p>We have created this platform "Life Beats" for the one who can easily commnicate directly with the person who
-                  wants to donate the blood and for the person who wants blood easily from blood bank or can directly get connected
-                  with the Donor from our website. Our main role is acting intermediate between the person who wants blood and the person
-                  who want to donate the blood. Let's Help together saving one's life as Life is the most important part for Us. 
-              </p>
-            </div>
-            <div class="note mt-xl-5">
-              <P>Note : Login or Sign-up is required for further process for requesting or donating.</P>
-            </div>
-        </div>
-        <footer class="pt-xl-1 pb-xl-1" style="background-color: #707070;"> 
-            <a href="#"><span style="color: white; font-size: 18px; margin-left: 15px;font-family: 'Poppins', sans-serif;">Made with <i class="fa fa-heart" aria-hidden="true" style="color:red;"></i> by Cognate</span></a>
-        </footer>
+
+            <table class="table table-striped table-dark table-hover container-sm ">
+            <thead>
+                <tr>
+                <th scope="col">NAME</th>
+                <th scope="col">AGE</th>
+                <th scope="col">BLOOD GROUP</th>
+                <th scope="col">LAST DONATED</th>
+                <th scope="col">Request Info</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <?php 
+                $qry="select * from donor where bgrp='$bgrp'";
+                $res=mysqli_query($con,$qry);
+                while($row=mysqli_fetch_array($res)){?>
+                <tr>
+                <td  scope="row"><?php echo $row['name']; ?></td>
+                <td><?php echo $row['age']; ?></td>
+                <td><?php echo $row['bgrp']; ?></td>
+                <td><?php echo $row['ldate']; ?></td>
+                <td><button class="btn btn-danger btn-xs" style="font-size:15px;">Request</button></td>
+
+                </tr> <?php } ?>
+            </tbody>
+            </table>
     </body>
 </html>

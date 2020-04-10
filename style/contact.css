@@ -1,0 +1,80 @@
+body{
+    background-color: #152226;
+    color: #808080;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.1rem;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.header-menu{
+    letter-spacing: 0.1rem;
+}
+
+.header-menu .navbar-brand{
+    font-size: 40px;
+    color: #707070;
+}
+
+.header-menu .navbar-nav .nav-link{
+    font-size:30px;
+    font-weight: 400;
+    color: #707070;
+}
+
+.header-menu .navbar-expand-lg .navbar-collapse{
+    justify-content:  flex-end;
+}
+.navbar-collapse{
+    text-align: center;
+}
+
+.header-menu .navbar-nav  .button:hover{
+    background: white;
+}
+
+h1{
+    font-size: 60px;
+    text-decoration: underline;
+}
+h5{
+    font-size: 23px;
+}
+
+.card{
+    background-color: #152226;
+    color: #808080;
+    border: 1.5px solid #c82333;
+    border-radius: 4rem;
+}
+.card-img-top{
+    height: 220px;
+    width: 286px;
+    border-radius: 4rem;
+}
+
+footer{
+    left: 0;
+    bottom: 0;
+    margin-top: 8.6rem;
+    width: 100%;
+    background-color: #707070;
+}
+@media (max-width: 575.98px) { 
+    .card{
+        margin-left: 4rem;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .card{
+        margin-left: 8rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .card{
+        margin-left: 3rem;
+    }
+}
