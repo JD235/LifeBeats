@@ -6,7 +6,7 @@
   </p> 
 <h2><p align=center><b>We are here so every person who wants to help or need help can access our web easily.</b></p></h2>
 
-# <p align=center>Made with :heavy_heart_exclamation: Cognoate </p>
+# <p align=center>Made with :heavy_heart_exclamation: Cognate </p>
 
 <h2><b>How to Work on this Repo</b></h2>
 
